@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/k7osx/Documents/Vscode/Mods/MyModDll/IncidentWorker_TestIncident.csproj": {}
+  },
+  "projects": {
+    "/home/k7osx/Documents/Vscode/Mods/MyModDll/IncidentWorker_TestIncident.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/k7osx/Documents/Vscode/Mods/MyModDll/IncidentWorker_TestIncident.csproj",
+        "projectName": "IncidentWorker_TestIncident",
+        "projectPath": "/home/k7osx/Documents/Vscode/Mods/MyModDll/IncidentWorker_TestIncident.csproj",
+        "packagesPath": "/home/k7osx/.nuget/packages/",
+        "outputPath": "/home/k7osx/Documents/Vscode/Mods/MyModDll/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/k7osx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

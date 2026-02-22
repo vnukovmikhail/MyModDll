@@ -1,0 +1,5 @@
+/home/k7osx/Documents/Vscode/Mods/MyModDll/obj/Release/net472/IncidentWorker_TestIncident.csproj.AssemblyReference.cache
+/home/k7osx/Documents/Vscode/Mods/MyModDll/obj/Release/net472/IncidentWorker_TestIncident.GeneratedMSBuildEditorConfig.editorconfig
+/home/k7osx/Documents/Vscode/Mods/MyModDll/obj/Release/net472/IncidentWorker_TestIncident.AssemblyInfoInputs.cache
+/home/k7osx/Documents/Vscode/Mods/MyModDll/obj/Release/net472/IncidentWorker_TestIncident.AssemblyInfo.cs
+/home/k7osx/Documents/Vscode/Mods/MyModDll/obj/Release/net472/IncidentWorker_TestIncident.csproj.CoreCompileInputs.cache
