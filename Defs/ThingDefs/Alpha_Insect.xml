@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BaseInsect">
+        <defName>Insectide</defName>
+        <label>insectide</label>
+        <description>Its very dangerous and wild insect, do not try to catch him. Only death can stop him...</description>
+        <statBases>
+            <MoveSpeed>6.60</MoveSpeed>
+            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+            <MarketValue>500</MarketValue>
+            <LeatherAmount>0</LeatherAmount>
+            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.27</ArmorRating_Sharp>
+            <Wildness>0.95</Wildness>
+        </statBases>
+        <uiIconScale>1.15</uiIconScale>
+        <tools>
+            <li>
+                <label>head claw</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2.6</cooldownTime>
+                <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+
+        <comps>
+            <li Class="InsectideMod.CompProperties_AcidSpit"/>
+        </comps>
+
+        <race>
+            <body>BeetleLikeWithClaw</body>
+            <baseHungerRate>0.35</baseHungerRate>
+            <baseBodySize>1.2</baseBodySize>
+            <baseHealthScale>2.5</baseHealthScale>
+            <meatLabel>insect meat</meatLabel>
+            <lifeExpectancy>6</lifeExpectancy>
+            <trainability>Advanced</trainability>
+            <specialTrainables>
+                <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+            </specialTrainables>
+
+            <lifeStageAges>
+                <li>
+                    <def>EusocialInsectLarva</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>EusocialInsectJuvenile</def>
+                    <minAge>0.03</minAge>
+                </li>
+                <li>
+                    <def>EusocialInsectAdult</def>
+                    <minAge>0.2</minAge>
+                    <soundWounded>Pawn_BigInsect_Pain</soundWounded>
+                    <soundDeath>Pawn_BigInsect_Death</soundDeath>
+                    <soundCall>Pawn_BigInsect_Call</soundCall>
+                    <soundAngry>Pawn_BigInsect_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <tradeTags>
+            <li>AnimalInsect</li>
+        </tradeTags>
+    </ThingDef>
+
+    <PawnKindDef ParentName="InsectKindBase">
+        <defName>Insectide</defName>
+        <label>insectide</label>
+        <race>Insectide</race>
+        <combatPower>150</combatPower>
+        <ecoSystemWeight>0.50</ecoSystemWeight>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Animal/Insectide</texPath>
+                    <drawSize>1.2</drawSize>
+                    <!-- <color>(54,114,57)</color> -->
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Animal/Insectide</texPath>
+                    <drawSize>1.2</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Animal/Insectide</texPath>
+                    <drawSize>1.6</drawSize>
+                    <!-- <color>(54,114,57)</color> -->
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Animal/Insectide</texPath>
+                    <drawSize>1.6</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Animal/Insectide</texPath>
+                    <drawSize>2.5</drawSize>
+                    <!-- <color>(54,114,57)</color> -->
+                    <shadowData>
+                        <volume>(0.5, 0.7, 0.43)</volume>
+                        <offset>(0,0,-0.1)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Animal/Insectide</texPath>
+                    <drawSize>2.5</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+</Defs>

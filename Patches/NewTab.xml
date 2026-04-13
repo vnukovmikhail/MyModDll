@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="BasePawn"]/inspectorTabs</xpath>
+    <value>
+      <li>MyMod.ITab_X</li>
+    </value>
+  </Operation>
+</Patch>

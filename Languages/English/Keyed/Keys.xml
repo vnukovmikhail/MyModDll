@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MyCustomTabLabel>Info</MyCustomTabLabel>
+  <MyMod_PawnName>Name: {0}</MyMod_PawnName>
+  <MyMod_HealthBody>Body Integrity</MyMod_HealthBody>
+  <MyMod_ClickMe>Click me</MyMod_ClickMe>
+  <MyMod_ButtonPushed>Button clicked!</MyMod_ButtonPushed>
+  <MyMod_Boom>Explode!</MyMod_Boom>
+</LanguageData>

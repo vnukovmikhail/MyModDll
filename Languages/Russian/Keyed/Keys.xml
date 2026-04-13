@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MyCustomTabLabel>Инфо</MyCustomTabLabel>
+  <MyMod_PawnName>Имя: {0}</MyMod_PawnName>
+  <MyMod_HealthBody>Целостность тела</MyMod_HealthBody>
+  <MyMod_ClickMe>Нажми меня</MyMod_ClickMe>
+  <MyMod_ButtonPushed>Кнопка нажата!</MyMod_ButtonPushed>
+    <MyMod_Boom>Подрыв!</MyMod_Boom>
+</LanguageData>

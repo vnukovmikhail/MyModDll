@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+    <packageId>k7osx.voidremains</packageId>
+    <name>Void Remains</name>
+
+    <author>Mihail</author>
+    <description>A mod exploring the desolate aftermath of a cosmic catastrophe. Navigate through the remnants of shattered worlds and silent voids, where the only signs of life are the echoes of a past long gone.</description>
+    <modVersion IgnoreIfNoMatchingField="True">1.0</modVersion>
+
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+
+    <url>https://github.com/vnukovmikhail</url>
+
+    <modDependencies>
+        <li>
+            <packageId>ludeon.rimworld.anomaly</packageId>
+            <displayName>Anomaly</displayName>
+            <!-- <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl> -->
+
+            <!-- <alternativePackageIds IgnoreIfNoMatchingField="True">
+                <li>erdelf.HumanoidAlienRaces.dev</li>
+            </alternativePackageIds> -->
+        </li>
+        <li>
+            <packageId>ludeon.rimworld.odyssey</packageId>
+            <displayName>Odyssey</displayName>
+        </li>
+        <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+            <displayName>Biotech</displayName>
+        </li>
+        <li>
+            <packageId>ludeon.rimworld.ideology</packageId>
+            <displayName>Ideology</displayName>
+        </li>
+        <li>
+            <packageId>ludeon.rimworld.royalty</packageId>
+            <displayName>Royalty</displayName>
+        </li>
+    </modDependencies>
+
+    <loadBefore>
+        <li>ludeon.rimworld.odyssey</li>
+    </loadBefore>
+    <!-- <loadBeforeByVersion>
+        <v1.6>
+            <li>ludeon.rimworld.odyssey</li>
+        </v1.6>
+    </loadBeforeByVersion> -->
+    <!-- <forceLoadBefore>
+        <li>ludeon.rimworld.odyssey</li>
+    </forceLoadBefore> -->
+
+    <loadAfter>
+        <li>ludeon.rimworld.anomaly</li>
+    </loadAfter>
+    <!-- <loadAfterByVersion>
+        <v1.6>
+            <li>ludeon.rimworld.anomaly</li>
+        </v1.6>
+    </loadAfterByVersion> -->
+    <!-- <forceLoadAfter>
+        <li>ludeon.rimworld.anomaly</li>
+    </forceLoadAfter> -->
+
+    <incompatibleWith>
+        <li>CETeam.CombatExtended</li>
+    </incompatibleWith>
+    <!-- <incompatibleWithByVersion>
+        <v1.6>
+            <li>CETeam.CombatExtended</li>
+        </v1.6>
+    </incompatibleWithByVersion> -->
+</ModMetaData>
