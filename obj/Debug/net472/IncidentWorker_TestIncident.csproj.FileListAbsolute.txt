@@ -9,3 +9,5 @@
 /home/k7osx/Documents/Vscode/Mods/MyModDll/obj/Debug/net472/IncidentWorker_TestIncident.csproj.CopyComplete
 /home/k7osx/Documents/Vscode/Mods/MyModDll/obj/Debug/net472/IncidentWorker_TestIncident.dll
 /home/k7osx/Documents/Vscode/Mods/MyModDll/obj/Debug/net472/IncidentWorker_TestIncident.pdb
+/home/k7osx/Documents/Vscode/Mods/MyModDll/bin/Debug/net472/UnityEngine.CoreModule.dll
+/home/k7osx/Documents/Vscode/Mods/MyModDll/bin/Debug/net472/UnityEngine.IMGUIModule.dll
